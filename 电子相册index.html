@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>电子相册首页</title>
+<style>
+*{
+   padding:0;
+   margin:0;
+}
+body{
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ height:100vh;
+ background-color:rgb(243,230,241);
+ text-align:center;
+}
+ 
+  
+.a {
+ height: 500px;
+ width: 90%;
+ display: flex;
+}
+.box{
+ flex:1;
+ transition:.5s;
+ margin:0 20px;
+ box-shadow:10px 10px 20px rgba(0,0,0,5);
+ border-radius:20px;
+ border:10px solid #FFF;
+ background-color:#FFF;
+}
+.box img{
+ width:100%;
+ height:85%;
+ object-fit: cover;
+ transition:.5s;
+}
+	.box span{
+		font:  '优设标题黑' bolder ;
+		text-align: center;
+		height: 40%;
+		display: flex;
+		justify-content: center;
+		align-items: center;	
+	}
+	.box:hover{flex-basis:50%; }
+	.box:hover img{width:100%;
+	height: 100%;}
+.bt {
+	font-size: 50px;
+	font-weight: bold;
+	color: #F99;
+}
+
+</style>
+<script type="text/javascript">
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+</script>
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="20">
+  <tr>
+    <td><div align="center"><span class="bt"><a href="index.html"><img src="img/sy.png" width="30" height="30" alt=""/ ></a><a href="index.html" style="color:#f99; text-decoration:none;">&nbsp;&nbsp;石家庄留影</a></span></div>
+	  </td>
+  </tr>
+  <tr>
+    <td>
+<div class="a">
+    <div class="box">
+	<a href="bw.html">
+    <img src="img/博物院.jpg" / >
+		</a>
+    <span>河北博物院</span>
+    </div>
+    <div class="box">
+	<a href="ms.html">
+    <img src="img/美术馆.jpg" />
+		</a>
+    <span>石家庄美术馆</span>
+    </div>    
+    <div class="box">
+    <a href="kj.html">
+    <img src="img/科技馆.jpg" /> </a>
+    <span>河北科技馆</span>
+    </div>    
+    <div class="box">
+    <a href="lq.html">
+    <img src="img/龙泉.jpg" /> </a>
+    <span>龙泉古镇</span>
+    </div>
+	<div class="box">
+    <a href="zd.html">
+    <img src="img/正定.jpg" /> </a>
+    <span>正定古城</span>
+    </div>    
+	<div class="box">
+    <a href="bdz.html">
+    <img src="img/抱犊寨.jpg" /> </a>
+    <span>抱犊寨</span>
+    </div> </div>   
+</td>
+  </tr>
+</table>
+
+</body>
+</html>
